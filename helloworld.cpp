@@ -7,4 +7,8 @@ int main () {
 	cout<<"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	cout<<"StevePi"<<endl;
 	cout<<"FINISH HIM"<<endl;
+	for (int i ; i < 256 ; i++){
+		cout<<(char)i;
+	}
+	return 0;
 }
