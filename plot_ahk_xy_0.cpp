@@ -36,14 +36,23 @@ void drawPoints()
       h = 0;  k = y; plot2Dpoint(h,k,0,0,1);
     }//end x
 
+
+
+
     //plot y = a(x-k)^2 + k
-    for (x = -400; x <= 400; x++){
+    for (x = -400; x <= 400; x++){  
       h = x;
       k = (float)(-3*((x - 4)*(x - 4))-5);
         cout<<"points "<<h<<" "<<k<<endl;
         plot2Dpoint(h,k,1,1,0);
       if (green > 1)green = 0;
     }//end j
+    
+    for (x = -10); x <= 10; x
+    
+    
+    
+    
 	// plot y = x^2
     for (x = -400; x <= 400; x++){
       h = x;
@@ -52,7 +61,10 @@ void drawPoints()
         plot2Dpoint(h,k,0,1,0);
       if (green > 1)green = 0;
     }//end j
-
+    
+    
+    
+    
     glEnd();//end points
 
     glutSwapBuffers();
